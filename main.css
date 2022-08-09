@@ -1,0 +1,111 @@
+/*p{
+    color:red;
+}*/
+
+/*@font-face {
+    font-family: ;
+    src: url();
+}*/
+
+html{
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Gentium Book Plus', serif;   
+}
+
+
+a{
+    text-decoration: none;
+    color:  #d500f9 ;
+}
+a:hover{
+    opacity:0.8;
+}
+
+title{
+    text-transform: uppercase;
+    text-align: center;
+}
+.container{
+    background-color: #d528bb;
+    background: -webkit-linear-gradient(to rigth,#c6426e,#642b73);
+    background: linear-gradient(to rigth,#c6426e,#642b73);
+    /*ocupa todo el alto de la pantalla*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    /*estira todo el ancho y alto sin romper limites previos*/
+    width: 80%;
+    height:80%;
+    background-color: white;
+    text-align: center;
+
+}
+h1{
+    text-decoration: underline;
+}
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+.fa-star{
+    color:#ffc400;}
+/*
+.red{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+#boton-pago{
+    background-color: yellow;
+}*/
+/*td{
+    border:solid 1px;
+}*/
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+    
+}
+/*td{
+    border: solid 1px;
+}*/
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+
+.table th{
+    font-weight: bold;
+
+}
+.table tr:nth-child(event){background-color: #f3e5f5;}
+
+.impar{
+    background-color: #f27ec9;
+}
+.position{
+    background-color: #c6426e;
+    color: white;
+    padding:10px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+.title-item{
+    /*border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #c6426e;*/
+    border-bottom: solid 2px #c6426e;
+    padding-bottom:1em;
+}
+
+
